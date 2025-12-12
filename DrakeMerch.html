@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
+<style>
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+ <a href="DrakeHome.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-symbols-outlined w3-xxlarge">home</i> 
+        <p>HOME</p>
+</a>
+<a href="DrakeAlbums.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-symbols-outlined w3-xxlarge">album</i> 
+        <p>ALBUMS</p>
+</a>
+<a href="DrakeMerch.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="material-symbols-outlined w3-xxlarge">shopping_bag</i>
+        <p>MERCH</p>
+</a>
+<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-symbols-outlined w3-xxlarge">tour</i>
+        <p>TOURS</p>
+</a>
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span>OVO MERCH</h1>
+    <video style="width:100%; max-width:992px; height:auto;" autoplay muted loop playsinline>
+        <source src="MerchVideo.mp4" type="video/mp4">
+    </video> 
+  </header>
+
+  <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <table class="w3-table-all w3-centered">
+            <tr>
+                <th style="padding: 20px;">
+                    <img src="https://us.octobersveryown.com/cdn/shop/files/C-0325-OT-6198_BLACK3853_691b298d-4aba-4819-a7f4-462815b728a5.jpg?v=1757614767&width=823" alt="OVO Logo" style="width:300px; height:300px; object-fit:cover;">
+        </table>
+    </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
